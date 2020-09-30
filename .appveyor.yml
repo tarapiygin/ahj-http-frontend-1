@@ -9,7 +9,7 @@ branches:
 cache: node_modules  # кеширование
 
 install:
-  - npm install  # команда установки зависимостей
+  - run npx npm-force-resolutions && npm install  # команда установки зависимостей
 
 build: off
 
